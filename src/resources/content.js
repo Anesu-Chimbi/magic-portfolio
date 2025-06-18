@@ -1,16 +1,16 @@
 import { Logo } from "@once-ui-system/core";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Anesu",
+  lastName: "Chimbi",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Data Analyst, GIS Specialist, Photographer",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  email: "anesuchimbi@gmail.com",
+  location: "Europe/Enschede", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Duth"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -18,8 +18,8 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      I occasionally share BTS moments, visual essays and thoughts on  
+      storytelling through photography and geospatial imagery.
     </>
   ),
 };
@@ -30,22 +30,22 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/Anesu-Chimbi",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/albert-c-901484198/",
   },
   {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    name: "Instagram",
+    icon: "instagram",
+    link: "https://www.instagram.com/endframe_pictures/",
   },
   {
     name: "Email",
     icon: "email",
-    link: `mailto:${person.email}`,
+    link: `mailto:${anesuchimbi@gmail.com}`,
   },
 ];
 
@@ -61,13 +61,14 @@ const home = {
     title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
     href: "/work/building-once-ui-a-customizable-design-system",
   },
-  subline: (
-    <>
-      I'm Selene, a design engineer at <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+subline: (
+  <>
+    I'm Albert, a Data and GIS specialist with a passion for telling stories through spatial data and photography.
+      By day, I work with maps and satellite imagery — after hours, I document the world through my lens as Endframe Pictures.
     </>
   ),
 };
+ 
 
 const about = {
   path: "/about",
@@ -90,9 +91,10 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Anesu is a Netherlands-based GIS and Data Analyst passionate about transforming 
+        complex spatial data into clear, actionable insights. 
+        His work combines geospatial analysis, sustainability and visual storytelling to support
+        environmental and development projects.
       </>
     ),
   },
