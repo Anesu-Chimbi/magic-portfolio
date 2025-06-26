@@ -15,7 +15,7 @@ const person = {
 
 const newsletter = {
   display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
+  title: `Subscribe to ${person.firstName}'s Newsletter`,
   description: (
     <>
       I occasionally share BTS moments, visual essays and thoughts on  
@@ -23,6 +23,7 @@ const newsletter = {
     </>
   ),
 };
+
 
 const social = [
   // Links are automatically displayed.
