@@ -10,7 +10,7 @@ const person = {
   avatar: "/images/avatar.jpg",
   email: "anesuchimbi@gmail.com",
   location: "Europe/Enschede", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Duth"], // optional: Leave the array empty if you don't want to display languages
+  languages: ["English", "Dutch"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -91,10 +91,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Anesu is a Netherlands-based GIS and Data Analyst passionate about transforming 
-        complex spatial data into clear, actionable insights. 
-        His work combines geospatial analysis, sustainability and visual storytelling to support
-        environmental and development projects.
+        Anesu is a Netherlands-based GIS and Data Analyst passionate about transforming complex spatial data into clear, actionable insights. His work combines geospatial analysis, sustainability and visual storytelling to support environmental and development projects.
       </>
     ),
   },
